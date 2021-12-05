@@ -26,6 +26,9 @@ img {
     display: flex;
     text-align: center;
     justify-content: space-evenly;   
+}
+
+.latest img {
     width: 100%;
 }
 
@@ -35,8 +38,10 @@ img {
 .posts {
     text-align: center;
     margin: 0;
-    width: 100%;
+}
 
+.post img {
+    width: 100%;
 }
 
 
