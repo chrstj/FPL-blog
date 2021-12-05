@@ -237,7 +237,6 @@ button {
        }
 
     .posts {
-        text-align: center;
         display: inline;    
     }
 }
@@ -267,8 +266,8 @@ button {
 
 @media screen and (max-width: 700px) {
     .content img {
-        max-width: 250px;
-        max-height: 250px;
+        max-width: 350px;
+        max-height: 350px;
     }
     .content p {
       width: 80%;
