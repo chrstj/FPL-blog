@@ -24,6 +24,7 @@ p {
     display: flex;
     text-align: center;
     justify-content: space-evenly;   
+    width: 100%;
 }
 
 
@@ -32,6 +33,7 @@ p {
 .posts {
     text-align: center;
     margin: 0;
+    width: 100%;
 
 }
 
@@ -226,14 +228,12 @@ button {
     }
 
     .latest {
-        display: inline;
-        width: 250px;
-    }
+        display: inline;    }
 
     .posts {
         text-align: center;
-        width: 250px;
-        display: inline;    }
+        display: inline;    
+    }
 }
 
 
