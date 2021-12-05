@@ -18,10 +18,6 @@ p {
 }
 
 
-<<<<<<< Updated upstream
-=======
-
->>>>>>> Stashed changes
 /* Home Page */
 
 .latest {
@@ -36,8 +32,8 @@ p {
 .posts {
     text-align: center;
     margin: 0;
-}
 
+}
 
 
 /* Blog Specific Page */
@@ -58,10 +54,6 @@ width: 40%;
 }
 
 
-<<<<<<< Updated upstream
-=======
-
->>>>>>> Stashed changes
 /* Contact Page */
 
 form {
@@ -83,8 +75,6 @@ input {
 }
 
 
-
-
 /* About Page  */
 
 .about {
@@ -94,10 +84,6 @@ input {
 }
 
 
-<<<<<<< Updated upstream
-=======
-
->>>>>>> Stashed changes
 /* Nav */
 
 header {
@@ -132,7 +118,7 @@ nav a {
 
 #hamburger-menu {
     display: none;
-}
+  }
 
 .current {
     background-color: #883DF2;
@@ -145,10 +131,6 @@ nav a {
 }
 
 
-<<<<<<< Updated upstream
-=======
-
->>>>>>> Stashed changes
 /* Links & Buttons */
 
 a {
@@ -159,7 +141,6 @@ a {
 a:hover {
     text-decoration: underline;
 }
-
 a img {
     max-width: 400px;
 }
@@ -182,10 +163,6 @@ button {
 }
 
 
-<<<<<<< Updated upstream
-=======
-
->>>>>>> Stashed changes
 /* Media Queries */
 
 @media screen and (max-width: 1600px) {
@@ -240,10 +217,7 @@ button {
             margin-left: auto;
             margin-right: auto;
             max-width: 70%
-<<<<<<< Updated upstream
             
-=======
->>>>>>> Stashed changes
     }
 
     .content img {
