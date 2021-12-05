@@ -10,8 +10,6 @@ async function fetchDetails() {
         const response = await fetch(url);
         const details = await response.json();
 
-        console.log(details);
-
         createHtml(details);
       
     }
@@ -24,8 +22,8 @@ fetchDetails();
 
 function createHtml(details) {
     detailContainer.innerHTML += `
-   <h1>${details.title.rendered}</h1>
+    <h1>${details.title.rendered}</h1>
     <div class="content">${details.content.rendered}</div>
-    `                       
+    `                          
 } 
 

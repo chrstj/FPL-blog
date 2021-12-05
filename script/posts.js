@@ -10,7 +10,7 @@ async function getPosts(url){
         postContainer.innerHTML += `
         <a href="post-specific.html?id=${detail.id}">
         <div> <img src="${detail._embedded['wp:featuredmedia']['0'].source_url}" alt="${detail._embedded['wp:featuredmedia']['0'].alt_text}></div>
-        <div class="product"><h2>${detail.title.rendered}</h2>`
+        <div class="products"><h2>${detail.title.rendered}</h2>`
     })
 }
 
