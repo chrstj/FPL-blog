@@ -17,7 +17,9 @@ p {
     font-family: "Open Sans", Verdana, Geneva, Tahoma, sans-serif;
 }
 
-
+img {
+    overflow: hidden;
+}
 /* Home Page */
 
 .latest {
