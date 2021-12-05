@@ -255,8 +255,8 @@ button {
 
 @media screen and (max-width: 700px) {
     .content img {
-        max-width: 350px;
-        max-height: 350px;
+        max-width: 250px;
+        max-height: 250px;
     }
     .content p {
       width: 80%;
