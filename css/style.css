@@ -1,12 +1,15 @@
 /*  Fonts and size */
+html,body{
+    overflow-x: hidden;
+    overflow-y: auto;
+}
 
 body {
     font-family: "Century Gothic", Arial, Helvetica, sans-serif;
     margin: 0px;
     height: 100%;
     width: 100%;
-    overflow-y: auto;
-    overflow-x: hidden;
+
 }
 
 h1 {
