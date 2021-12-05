@@ -213,6 +213,8 @@ button {
 
     #hamburger-menu:checked ~ nav {
        display: block;
+       margin: 0;
+       
     }
 
     .about {
