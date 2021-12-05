@@ -17,9 +17,7 @@ p {
     font-family: "Open Sans", Verdana, Geneva, Tahoma, sans-serif;
 }
 
-img {
-    overflow: hidden;
-}
+
 /* Home Page */
 
 .latest {
@@ -28,9 +26,6 @@ img {
     justify-content: space-evenly;   
 }
 
-.latest img {
-    width: 100%;
-}
 
 
 /* Blog Page */
@@ -39,9 +34,7 @@ img {
     text-align: center;
 }
 
-.post img {
-    width: 100%;
-}
+
 
 
 /* Blog Specific Page */
@@ -196,6 +189,7 @@ button {
         top: 70px;
         background: #380140;
         right: 0px;
+        width: fit-content;
     }
     
     nav li {
@@ -234,7 +228,9 @@ button {
     }
 
     .latest {
-        display: inline;    }
+        display: inline;
+        width: 20%;
+       }
 
     .posts {
         text-align: center;
