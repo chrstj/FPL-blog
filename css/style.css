@@ -227,6 +227,11 @@ button {
 
     .latest {
         display: grid;
+        width: fit-content;
+    }
+
+    .posts {
+        width:fit-content;
     }
 }
 
@@ -248,7 +253,7 @@ button {
 }
 
      form {
-         grid-template-columns: 400px;
+         grid-template-columns: 250px;
 
 }
 

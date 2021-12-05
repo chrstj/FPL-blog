@@ -2,7 +2,7 @@ const postContainer = document.querySelector(".latest");
 const baseUrl = "https://www.floewerpoewer.one/wp-json/wp/v2/posts?_embed&per_page=3";
 const morePosts = document.querySelector(".morePosts");
 
-async function getProducts(url){
+async function getLatestPost(url){
     const response = await fetch(url);
     const details = await response.json();
     console.log(url);
@@ -19,7 +19,7 @@ async function getProducts(url){
     })
 }
 
-getProducts(baseUrl);
+getLatestPost(baseUrl);
 
 
 morePosts.onclick = function () {

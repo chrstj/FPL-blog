@@ -2,7 +2,7 @@ const postContainer = document.querySelector(".posts");
 const baseUrl = "https://www.floewerpoewer.one/wp-json/wp/v2/posts?_embed";
 const viewMore = document.querySelector(".viewMore");
 
-async function getProducts(url){
+async function getPosts(url){
     const response = await fetch(url);
     const details = await response.json();
     console.log(url);
@@ -14,13 +14,13 @@ async function getProducts(url){
     })
 }
 
-getProducts(baseUrl);
+getPosts(baseUrl);
 
 viewMore.onclick = function(){
     const newUrl = "https://www.floewerpoewer.one/wp-json/wp/v2/posts?_embed&per_page=12";
     postContainer.innerHTML = "";
     viewMore.style.display = 'none';
-    getProducts(newUrl);
+    getPosts(newUrl);
 
 }
 
