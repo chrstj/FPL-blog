@@ -1,0 +1,252 @@
+/*  Fonts and size */
+
+body {
+    font-family: "Century Gothic", Arial, Helvetica, sans-serif;
+    margin: 0;
+}
+
+h1 {
+    margin-top: auto;
+    padding: 50px;
+    text-align: center;
+}
+
+p {
+    font-family: "Open Sans", Verdana, Geneva, Tahoma, sans-serif;
+}
+
+/* Home Page */
+
+.latest {
+    display: flex;
+    text-align: center;
+    justify-content: space-evenly;   
+}
+
+
+
+/* Blog Page */
+.posts {
+    text-align: center;
+    margin: 0;
+
+}
+
+
+/* Blog Specific Page */
+
+.content p {
+margin-right: auto;
+margin-left: auto;
+text-align: left;
+width: 40%;
+}
+
+.content {
+    text-align: center;
+}
+
+.content img {
+    margin-bottom: 30px;
+}
+/* Contact Page */
+
+form {
+    display: grid;
+    justify-content: center;
+    grid-template-columns: 600px;
+}
+
+.form-error {
+    display: none;
+    color: rgb(255, 0, 0);
+    font-size: 0.9rem;
+    margin-top: 2px;
+}
+
+input {
+    margin-top: 5px;
+    padding: 10px;
+    }
+
+/* About Page  */
+.about {
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 30%;
+}
+
+/* Nav */
+header {
+    background-color: #380140;
+    display: flex;
+    align-items: center;
+}
+
+header a {
+    color: white;
+    padding: 20px;
+}
+
+nav li {
+    display: inline-block;
+    margin-left: 5em;
+    font-size: 22px;
+}
+
+nav {
+    margin-left: 50px;
+}
+
+nav a {
+    margin-left: 100px;
+}
+
+.hamburger {
+    display: none;
+    color: white;
+}
+
+#hamburger-menu {
+    display: none;
+  }
+
+.current {
+    background-color: #883DF2;
+}
+
+.logo {
+    font-family:'Wendy One', 'Century Gothic', 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 25px;
+    padding-left: 1em;
+}
+
+
+
+
+/* Links & Buttons */
+a {
+    text-decoration: none;
+    color: black;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+a img {
+    max-width: 400px;
+}
+
+
+
+button {
+    max-width: 100px;
+    min-width: 100px;
+    margin: auto;
+    border: none;
+    background: #02884E;
+    color: white;
+    margin-top: 8px;
+    margin-bottom: 8px;
+    cursor: pointer;
+    padding: 8px;
+    border-radius: 15px;
+    font-size: 15px;
+    display: flex;
+    justify-content: center;
+}
+
+/* Media Queries */
+@media screen and (max-width: 1600px) {
+    nav li {
+        margin-left: 0em;
+    }
+    .content p {
+        margin-right: auto;
+        margin-left: auto;
+        text-align: left;
+        width: 60%;
+        }
+        
+       
+}
+
+@media screen and (max-width: 1200px) {
+    nav {
+        margin-left: 25px;
+        display: none;
+        position:fixed;
+        top: 70px;
+        background: #380140;
+        right: 0px;
+        }
+    
+    nav li {
+        padding: 5px 10px;
+        display: flex;
+        flex-direction: column;
+    }
+
+    header {
+        justify-content: space-between;
+    }
+
+    .hamburger {
+        display: inline-block;
+        padding: 20px;
+        width: 15%;
+        margin-left: 20px;
+        font-size: 25px;
+        text-align: center;
+      }
+
+    #hamburger-menu:checked ~ nav {
+       display: block;
+        }
+
+    .about {
+            margin-left: auto;
+            margin-right: auto;
+            max-width: 70%
+            
+        }
+
+    .content img {
+        max-width: 800px;
+        max-height: 800px;
+    }
+
+    .latest {
+        display: grid;
+    }
+}
+
+@media screen and (max-width: 1000px) {
+.content img {
+    max-width: 600px;
+    max-height: 600px;
+}
+
+}
+@media screen and (max-width: 800px) {
+    .about {
+        margin-left: auto;
+        margin-right: auto;
+        max-width: 90%;
+}
+
+form {
+    grid-template-columns: 400px;
+
+}
+@media screen and (max-width: 700px) {
+    .content img {
+        max-width: 390px;
+        max-height: 390px;
+    }
+    .content p {
+      width: 80%;
+   
+        }
+}
+}
