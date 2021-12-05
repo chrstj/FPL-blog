@@ -3,7 +3,8 @@
 body {
     font-family: "Century Gothic", Arial, Helvetica, sans-serif;
     margin: 0;
-    overflow: auto;
+    overflow-y: auto;
+    overflow-x: hidden;
 }
 
 h1 {
@@ -16,6 +17,8 @@ p {
     font-family: "Open Sans", Verdana, Geneva, Tahoma, sans-serif;
 }
 
+
+
 /* Home Page */
 
 .latest {
@@ -27,11 +30,13 @@ p {
 
 
 /* Blog Page */
+
 .posts {
     text-align: center;
     margin: 0;
 
 }
+
 
 
 /* Blog Specific Page */
@@ -50,6 +55,9 @@ width: 40%;
 .content img {
     margin-bottom: 30px;
 }
+
+
+
 /* Contact Page */
 
 form {
@@ -68,16 +76,22 @@ form {
 input {
     margin-top: 5px;
     padding: 10px;
-    }
+}
+
+
 
 /* About Page  */
+
 .about {
     margin-left: auto;
     margin-right: auto;
     max-width: 30%;
 }
 
+
+
 /* Nav */
+
 header {
     background-color: #380140;
     display: flex;
@@ -124,8 +138,8 @@ nav a {
 
 
 
-
 /* Links & Buttons */
+
 a {
     text-decoration: none;
     color: black;
@@ -157,7 +171,10 @@ button {
     justify-content: center;
 }
 
+
+
 /* Media Queries */
+
 @media screen and (max-width: 1600px) {
     nav li {
         margin-left: 0em;
@@ -167,7 +184,7 @@ button {
         margin-left: auto;
         text-align: left;
         width: 60%;
-        }
+    }
         
        
 }
@@ -180,7 +197,7 @@ button {
         top: 70px;
         background: #380140;
         right: 0px;
-        }
+    }
     
     nav li {
         padding: 5px 10px;
@@ -199,18 +216,18 @@ button {
         margin-left: 20px;
         font-size: 25px;
         text-align: center;
-      }
+    }
 
     #hamburger-menu:checked ~ nav {
        display: block;
-        }
+    }
 
     .about {
             margin-left: auto;
             margin-right: auto;
             max-width: 70%
             
-        }
+    }
 
     .content img {
         max-width: 800px;
@@ -248,6 +265,6 @@ button {
     .content p {
       width: 80%;
    
-        }
+    }
 }
 }
