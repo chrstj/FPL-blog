@@ -106,6 +106,7 @@ nav li {
 
 nav {
     margin-left: 50px;
+    padding-right: 0px;
 }
 
 nav a {
@@ -214,7 +215,7 @@ button {
     #hamburger-menu:checked ~ nav {
        display: block;
        margin: 0;
-       
+
     }
 
     .about {
