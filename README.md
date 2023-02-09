@@ -1,7 +1,6 @@
 # Project Exam 1
 
-![Skjermbilde (9)](https://user-images.githubusercontent.com/79081491/217915988-3f016595-226b-4b0b-8f11-81fe34bfc9e6.png)
-
+![FPL-blog](https://user-images.githubusercontent.com/79081491/217918007-60eb1bcd-f7b4-47af-9ae5-f026521eab3c.png)
 
 A blog site for Fantasy Premier League
 
