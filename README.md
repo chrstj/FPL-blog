@@ -1,4 +1,4 @@
-# Your project title
+# Project Exam 1
 
 ![Skjermbilde (9)](https://user-images.githubusercontent.com/79081491/217915988-3f016595-226b-4b0b-8f11-81fe34bfc9e6.png)
 
