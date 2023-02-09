@@ -1,6 +1,7 @@
 # Your project title
 
-![image](https://user-images.githubusercontent.com/52622303/164316813-4b12d99f-aeb7-4069-85cf-e72b3a50ac99.png)
+![Skjermbilde (9)](https://user-images.githubusercontent.com/79081491/217915988-3f016595-226b-4b0b-8f11-81fe34bfc9e6.png)
+
 
 A blog site for Fantasy Premier League
 
